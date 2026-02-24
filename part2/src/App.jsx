@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Course from './components/Course'
+import PhoneBook from './components/PhoneBook'
 
 const App = () => {
   const courses = [
@@ -51,6 +52,7 @@ const App = () => {
     <>
       {/* Exercises 2.1-2.5 */}
       <Course courses={courses} />
+      <PhoneBook />
     </>
   )
 }
